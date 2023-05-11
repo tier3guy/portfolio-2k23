@@ -26,3 +26,24 @@
   border: 1px solid var(--orange);
   color: var(--orange);
 }
+
+@media screen and (max-width: 768px) {
+  .about-container {
+    padding: 25px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+  .about-container > span {
+    font-size: 5em;
+    line-height: 50px;
+    margin-bottom: 30px;
+  }
+  .about-container > .home-subheading {
+    width: 100%;
+    border: none !important;
+  }
+  .about-container > audio {
+    width: 100%;
+  }
+}

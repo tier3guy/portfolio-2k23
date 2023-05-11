@@ -28,8 +28,8 @@ const About = () => {
           opportunities to learn and grow, and I am excited to see where my
           career in technology will take me.
         </p>
-        <p className="home-subheading border-bottom">
-          Why did I joined Engineering ?
+        <p className="home-subheading border-bottom why-engineering">
+          Why did I joined Engineering?
         </p>
         <audio
           controls
