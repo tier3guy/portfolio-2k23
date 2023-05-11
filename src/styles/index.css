@@ -1,0 +1,112 @@
+/* Importing Partials CSS */
+@import url("./partials/__partials.css");
+
+/* Importing Components CSS */
+@import url("./pages/Home.css");
+@import url("./pages/Error.css");
+@import url("./pages/About.css");
+@import url("./pages/Experiences.css");
+
+/* Scrollbar */
+/* width */
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--white);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--orange);
+  transition: all 0.3s;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  opacity: 0.5;
+}
+
+/* Overriding Global CSS */
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: var(--font-poppins);
+  color: var(--black);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+  background: var(--white);
+}
+
+button {
+  outline: none;
+  border: none;
+  cursor: none;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--black);
+}
+
+/* Custom Classes */
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.align-start {
+  align-items: start;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.container {
+  width: 100vw;
+}
+
+.debug {
+  border: 1px solid red;
+}
+
+span {
+  font-family: var(--font-cursive);
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+.border-bottom {
+  border-bottom: 2px solid var(--orange);
+}
+
+.w-100 {
+  width: 100%;
+}

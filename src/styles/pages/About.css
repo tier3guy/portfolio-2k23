@@ -1,0 +1,28 @@
+.about-container {
+  padding: 25px;
+  width: 80%;
+  margin: auto;
+}
+
+.about-container > span {
+  font-size: 5em;
+  color: var(--orange);
+}
+
+.skills-container {
+  flex-wrap: wrap;
+}
+
+.skills-container > span {
+  font-family: var(--font-poppins) !important;
+  padding: 10px;
+  border: 1px solid var(--light-black);
+  margin: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.skills-container > span:hover {
+  border: 1px solid var(--orange);
+  color: var(--orange);
+}

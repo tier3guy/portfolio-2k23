@@ -1,0 +1,17 @@
+/* Importing Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Poppins:ital@0;1&family=Roboto:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
+
+:root {
+  /* Colors Schemes */
+  --black: #222831;
+  --light-black: #393e46;
+  --orange: #d65a31;
+  --white: #eeeeee;
+
+  /* Font Schemes */
+  --font-poppins: "Poppins";
+  --font-roboto: "Roboto";
+  --font-montserrat: "Montserrat";
+  --font-cursive: "Sacramento";
+}

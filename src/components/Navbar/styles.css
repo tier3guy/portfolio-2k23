@@ -1,0 +1,22 @@
+.navbar-container {
+  padding: 15px 25px;
+  padding-top: 5px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  z-index: 99;
+}
+
+.navbar-logo > a {
+  margin-left: 10px;
+  font-family: var(--font-cursive);
+  font-size: 3em;
+  cursor: pointer;
+}
+
+.navbar-links > a {
+  margin: 0px 10px;
+}
