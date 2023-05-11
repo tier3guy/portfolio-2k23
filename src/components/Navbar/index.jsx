@@ -5,7 +5,11 @@ import React from "react";
 import "./styles.css";
 
 const Navbar = () => {
-  const [isopen, setIsopen] = React.useState(true);
+  const [isopen, setIsopen] = React.useState(false);
+
+  const toggle = () => {
+    setIsopen(!isopen);
+  };
 
   return (
     <>
@@ -29,7 +33,7 @@ const Navbar = () => {
         </a>
       </div>
       <div className="navbar-open-btn center">
-        <button onClick={() => setIsopen(!isopen)}>
+        <button onClick={toggle}>
           <i className="fas fa-bars"></i>
         </button>
       </div>
@@ -41,14 +45,28 @@ const Navbar = () => {
         }}
       >
         <div className=" center flex-column">
-          <a href="https://www.linkedin.com/in/avinash-gupta-3321041ba/">
+          <a
+            onClick={toggle}
+            href="https://www.linkedin.com/in/avinash-gupta-3321041ba/"
+          >
             LinkedIn
           </a>
-          <a href="https://twitter.com/Avinash35925012">Twitter</a>
-          <a href="https://leetcode.com/tier_3_guy/">Leetcode</a>
-          <a href="#about-section">About</a>
-          <a href="#works-section">Works</a>
-          <a href="https://drive.google.com/file/d/1fKdtJF8W1Idu-Q1DQKAsq7QOoWs6j2kQ/view?usp=sharing">
+          <a onClick={toggle} href="https://twitter.com/Avinash35925012">
+            Twitter
+          </a>
+          <a onClick={toggle} href="https://leetcode.com/tier_3_guy/">
+            Leetcode
+          </a>
+          <a onClick={toggle} href="#about-section">
+            About
+          </a>
+          <a onClick={toggle} href="#works-section">
+            Works
+          </a>
+          <a
+            onClick={toggle}
+            href="https://drive.google.com/file/d/1fKdtJF8W1Idu-Q1DQKAsq7QOoWs6j2kQ/view?usp=sharing"
+          >
             Resume
           </a>
         </div>
