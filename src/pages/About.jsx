@@ -48,7 +48,7 @@ const About = () => {
         </span>
         <div className="skills-container center">
           <span>HTML</span> <span>CSS</span> <span>JavaScript</span>
-          <span>TypeScript</span> <span>Next JS</span>
+          <span>TypeScript</span> <span>Next JS</span> <span>Tailwind CSS</span>
           <span>React JS</span> <span>Node.js</span> <span>Express</span>
           <span>MongoDB</span> <span>React Native</span>
           <span>Blockchain Development</span> <span>Solidity</span>
