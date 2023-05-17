@@ -52,8 +52,8 @@ const About = () => {
           <span>React JS</span> <span>Node.js</span> <span>Express</span>
           <span>MongoDB</span> <span>React Native</span>
           <span>Blockchain Development</span> <span>Solidity</span>
-          <span>Python</span> <span>Java</span> <span>C++</span>
-          <span>Git</span>{" "}
+          <span>Java</span> <span>C++</span>
+          <span>Git</span> <span>Github</span>
         </div>
       </div>
     </div>
