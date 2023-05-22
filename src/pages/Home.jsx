@@ -1,9 +1,11 @@
 // Componets
+import { Products } from ".";
 import { Navbar, Footer } from "../components";
 
 // Pages
 import About from "./About";
 import Experiences from "./Experiences";
+import Projects from "./Projects";
 
 const Home = () => {
   return (
@@ -26,6 +28,8 @@ const Home = () => {
       </div>
       <About />
       <Experiences />
+      <Projects />
+      <Products />
       <Footer />
     </div>
   );

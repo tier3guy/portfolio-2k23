@@ -11,6 +11,7 @@
 
 .skills-container {
   flex-wrap: wrap;
+  width: 80%;
 }
 
 .skills-container > span {
@@ -44,6 +45,9 @@
     border: none !important;
   }
   .about-container > audio {
+    width: 100%;
+  }
+  .skills-container {
     width: 100%;
   }
 }

@@ -6,6 +6,7 @@
 @import url("./pages/Error.css");
 @import url("./pages/About.css");
 @import url("./pages/Experiences.css");
+@import url("./pages/Products.css");
 
 /* Scrollbar */
 /* width */
@@ -110,4 +111,12 @@ span {
 
 .w-100 {
   width: 100%;
+}
+
+.border-none {
+  border: none !important;
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }
