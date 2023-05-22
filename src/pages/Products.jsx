@@ -53,7 +53,7 @@ const Projects = () => {
             }}
             className="cursor-pointer"
           >
-            npm install create-react-avinash-app ./your-folder-name
+            npx create-react-avinash-app ./your-folder-name
           </p>
         </p>
       </div>
@@ -103,7 +103,7 @@ const Projects = () => {
             }}
             className="cursor-pointer"
           >
-            npm install create-expo-app-starter-template-js ./your-folder-name
+            npx create-expo-app-starter-template-js ./your-folder-name
           </p>
         </p>
       </div>
@@ -152,7 +152,7 @@ const Projects = () => {
             className="cursor-pointer"
             id="code"
           >
-            npm install create-express-backend-app ./your-folder-name
+            npx create-express-backend-app ./your-folder-name
           </p>
         </p>
       </div>
