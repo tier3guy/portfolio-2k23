@@ -24,7 +24,13 @@ const ProjectsData = [
       "Led the development of a robust full-stack web application using React, TypeScript, and Tailwind CSS. Built a user-friendly interface that allows individuals to create and participate in crowdfunding campaigns, empowering them to showcase their projects and receive financial support. Leveraged a third-party web service for seamless campaign management, including real-time updates on funding progress and milestones. Implemented secure user authentication and account management functionalities. Collaborated closely with a talented team, utilizing agile methodologies and Git for efficient project coordination and version control.",
     gh: "https://github.com/tier3guy/crowdfunding.git",
     live: "https://crowdfunding-peach.vercel.app/",
-    tech: ["React", "Typescript", "Tailwind", "Thirdweb", "Solidity"],
+    tech: [
+      "React",
+      "Tailwind",
+      "Thirdweb",
+      "Solidity",
+      "Vercel (For deployment)",
+    ],
   },
 ];
 

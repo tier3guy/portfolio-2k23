@@ -1,5 +1,8 @@
 import React from "react";
+
+// Assets
 import { ProductsData } from "../assets/data";
+import GithubIcon from "../assets/icons/github.svg";
 
 const Projects = () => {
   return (
@@ -25,10 +28,15 @@ const Projects = () => {
                 </h1>
               </a>
               <a target="__black" href={pdt.gh}>
-                <i
+                <img
+                  src={GithubIcon}
+                  style={{ height: "32px", width: "32px" }}
+                  alt="gh-icon"
+                />
+                {/* <i
                   className="fa-solid fa-github"
                   style={{ fontSize: "30px" }}
-                />
+                /> */}
               </a>
             </div>
 

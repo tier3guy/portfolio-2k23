@@ -1,5 +1,8 @@
 import React from "react";
+
+// Assets
 import { ProjectsData } from "../assets/data";
+import GithubIcon from "../assets/icons/github.svg";
 
 const Projects = () => {
   return (
@@ -25,10 +28,15 @@ const Projects = () => {
                 </h1>
               </a>
               <a target="__black" href={proj.gh}>
-                <i
+                <img
+                  src={GithubIcon}
+                  style={{ height: "32px", width: "32px" }}
+                  alt="gh-icon"
+                />
+                {/* <i
                   className="fa-solid fa-github"
                   style={{ fontSize: "30px" }}
-                />
+                /> */}
               </a>
             </div>
             <p className="experience-subheading">{proj.description}</p>
@@ -40,7 +48,11 @@ const Projects = () => {
                 >
                   Tech Stack
                 </span>
-                ~ {proj.tech.join(", ")}
+                {` ~ `}
+                {proj.tech.map((tech, index) => {
+                  if (proj.tech.length - 1 === index) return `& ${tech}`;
+                  return `${tech}, `;
+                })}
               </p>
             )}
           </div>
