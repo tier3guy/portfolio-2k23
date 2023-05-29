@@ -47,7 +47,7 @@ const Projects = () => {
                 <p className="experience-subheading">
                   <span
                     style={{ fontFamily: "var(--poppins)" }}
-                    className="border-bottom"
+                    // className="border-bottom"
                   >
                     To install, try runnning
                   </span>
@@ -57,10 +57,12 @@ const Projects = () => {
                     style={{
                       fontFamily: "var(--poppins)",
                       marginLeft: "0px",
-                      padding: "10px 20px",
-                      background: "var(--black)",
-                      color: "var(--white)",
-                      borderRadius: "5px",
+                      padding: "5px 20px",
+                      // background: "var(--black)",
+                      // color: "var(--white)",
+                      // borderRadius: "5px",
+                      fontSize: "14px",
+                      border: "2px solid var(--orange)",
                     }}
                     className="cursor-pointer"
                   >
