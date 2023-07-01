@@ -50,7 +50,7 @@ const About = () => {
           <span>HTML</span> <span>CSS</span> <span>JavaScript</span>
           <span>TypeScript</span> <span>Next JS</span> <span>Tailwind CSS</span>
           <span>React JS</span> <span>Node.js</span> <span>Express</span>
-          <span>MongoDB</span> <span>React Native</span>
+          <span>MongoDB</span> <span>MySQL</span> <span>React Native</span>
           <span>Blockchain Development</span> <span>Solidity</span>
           <span>Java</span> <span>C++</span>
           <span>Git</span> <span>Github</span>
