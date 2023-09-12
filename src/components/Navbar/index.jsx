@@ -38,7 +38,10 @@ const Navbar = ({ blogs }) => {
               <a href="#works-section">Works</a>
             </div>
 
-            <a href="https://drive.google.com/file/d/1fKdtJF8W1Idu-Q1DQKAsq7QOoWs6j2kQ/view?usp=sharing">
+            <a
+              href="https://drive.google.com/file/d/1MrKnFrXRFATz_YjCRlCVP-M7XqQk5piD/view?usp=sharing"
+              target="__blank"
+            >
               Resume
             </a>
           </>
