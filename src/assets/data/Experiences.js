@@ -46,7 +46,7 @@ const ExperiencesData = [
   {
     id: 3,
     title: "Associate React Developer",
-    company: "VILS Behaviour Intelligence (on going)",
+    company: "VILS Behaviour Intelligence (Internship)",
     companyLink: "https://www.linkedin.com/company/vils-ait/",
     location: "WFH",
     pow: "",
@@ -54,6 +54,24 @@ const ExperiencesData = [
       {
         description:
           "As a Frontend Developer intern at VILS Behaviour Intelligence, I have been working on an exciting project involving the creation of a dashboard with video chat integration. While there are some details of the product that cannot be shared, I can say that I am proud of the progress our team has made so far. The team has praised my work on the project, which has been a great motivation for me to continue pushing my skills to new heights. I am grateful for the opportunity to contribute to such an innovative project and am excited to see what we can accomplish together as a team in the future. As a Frontend Developer intern at VILS Behaviour Intelligence, I have been working on an exciting project involving the creation of a dashboard with video chat integration. While there are some details of the product that cannot be shared, I can say that I am proud of the progress our team has made so far. The team has praised my work on the project, which has been a great motivation for me to continue pushing my skills to new heights. I am grateful for the opportunity to contribute to such an innovative project and am excited to see what we can accomplish together as a team in the future.",
+      },
+    ],
+  },
+  {
+    id: 4,
+    title: "Full Stack Developer",
+    company: "VILS Behaviour Intelligence (Full Time)",
+    companyLink: "https://www.linkedin.com/company/vils-ait/",
+    location: "WFH",
+    pow: "",
+    info: [
+      {
+        description:
+          "Transitioning from intern to a full-time Frontend Developer at VILS Behaviour Intelligence has been an exhilarating journey. Having cut my teeth on an exciting project involving a dashboard with video chat integration, I'm now a seasoned contributor to the team's success. The trust and recognition from my colleagues during the internship were invaluable, propelling me to refine my skills even further.",
+      },
+      {
+        description:
+          "As a full-time member, I'm poised to bring a wealth of experience and a fresh perspective to our ongoing and future projects. The innovative spirit that drives VILS continues to inspire me, and I'm eager to delve into new challenges and contribute to the company's growth. Gratitude fills me for the opportunity to be part of such a dynamic team, and I'm enthusiastic about the boundless possibilities that lie ahead. Here's to pushing the boundaries of frontend development and achieving even greater milestones together!",
       },
     ],
   },

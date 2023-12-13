@@ -10,6 +10,21 @@ const ProjectsData = [
   },
   {
     id: 2,
+    title: "Excel-to-JSON Convertor",
+    description:
+      "The Excel to JSON Converter stands as a testament to my expertise in software development, offering a streamlined solution for transforming Excel files into JSON format. Designed with versatility in mind, the tool supports .csv, .xls, and .xlsx files, providing users with a powerful means to extract valuable insights from their spreadsheet data. By combining user-centric design and efficient data processing, this project showcases my commitment to simplifying complex tasks, making it a pivotal asset for informed decision-making in the realm of data analytics.",
+    gh: "https://github.com/tier3guy/excel-to-json",
+    live: "https://excel-to-json-ecru.vercel.app/",
+    tech: [
+      "Next JS",
+      "Tailwind",
+      "Express",
+      "Typescript",
+      "Vercel (For deployment)",
+    ],
+  },
+  {
+    id: 3,
     title: "ChatGPT - Mobile",
     description:
       "ChatGPT Mobile App is a fan-based mobile application built on top of React Native. The app utilizes the DeepAI API to power its chatbot feature. The app allows users to chat with an AI-powered chatbot that uses machine learning to generate human-like responses to users' messages.",
@@ -18,7 +33,7 @@ const ProjectsData = [
     tech: ["React Native", "Node JS / Express JS", "Mongo DB", "Deep AI API"],
   },
   {
-    id: 3,
+    id: 4,
     title: "CrowdFunding - Web App",
     description:
       "Led the development of a robust full-stack web application using React, TypeScript, and Tailwind CSS. Built a user-friendly interface that allows individuals to create and participate in crowdfunding campaigns, empowering them to showcase their projects and receive financial support. Leveraged a third-party web service for seamless campaign management, including real-time updates on funding progress and milestones. Implemented secure user authentication and account management functionalities. Collaborated closely with a talented team, utilizing agile methodologies and Git for efficient project coordination and version control.",

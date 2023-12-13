@@ -1,13 +1,10 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 
-// External Component
-import { Link } from "react-router-dom";
-
 // Styles
 import "./styles.css";
 
-const Navbar = ({ blogs }) => {
+const Navbar = () => {
   const [isopen, setIsopen] = React.useState(false);
 
   const toggle = () => {
@@ -18,17 +15,12 @@ const Navbar = ({ blogs }) => {
     <>
       <div className="navbar-container center justify-between">
         <div className="navbar-logo center">
-          <a href="#">{blogs ? "the blogs" : "avinash"}</a>
+          <a href="#">{"avinash"}</a>
         </div>
 
         {
           <>
             <div className="navbar-links center">
-              {blogs ? (
-                <Link to="/">Home</Link>
-              ) : (
-                <Link to="/blogs">Blogs</Link>
-              )}
               <a href="https://www.linkedin.com/in/avinash-gupta-3321041ba/">
                 LinkedIn
               </a>
