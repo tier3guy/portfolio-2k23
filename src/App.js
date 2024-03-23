@@ -8,7 +8,7 @@ const App = () => {
   return (
     <Routes>
       {routes.map((route, index) => (
-        <Route {...route} />
+        <Route {...route} key={index} />
       ))}
     </Routes>
   );

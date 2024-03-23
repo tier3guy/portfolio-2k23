@@ -1,9 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 
-// Styles
-import "./styles.css";
-
 const Navbar = () => {
   const [isopen, setIsopen] = React.useState(false);
 
@@ -13,39 +10,46 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="navbar-container center justify-between">
-        <div className="navbar-logo center">
-          <a href="#">{"avinash"}</a>
+      <div
+        className="hidden md:flex p-4 px-16 justify-between items-center fixed top-0 left-0 w-full z-20"
+        style={{
+          backdropFilter: "blur(8px)",
+        }}
+      >
+        <div className="">
+          <a href="/" className="text-xl  text-primary">
+            {"tier3guy"}
+          </a>
         </div>
 
-        {
-          <>
-            <div className="navbar-links center">
-              <a href="https://www.linkedin.com/in/avinash-gupta-3321041ba/">
-                LinkedIn
-              </a>
-              <a href="https://twitter.com/Avinash35925012">Twitter</a>
-              <a href="https://leetcode.com/tier_3_guy/">Leetcode</a>
-              <a href="#about-section">About</a>
-              <a href="#works-section">Works</a>
-            </div>
+        <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-fit flex items-center gap-4">
+          <a href="https://www.linkedin.com/in/avinash-gupta-3321041ba/">
+            LinkedIn
+          </a>
+          <a href="https://twitter.com/tier3guy">Twitter</a>
+          <a href="https://leetcode.com/tier_3_guy/">Leetcode</a>
+          <a href="#about-section">About</a>
+          <a href="#works-section">Works</a>
+        </div>
 
-            <a
-              href="https://drive.google.com/file/d/1MrKnFrXRFATz_YjCRlCVP-M7XqQk5piD/view?usp=sharing"
-              target="__blank"
-            >
-              Resume
-            </a>
-          </>
-        }
+        <div>
+          <a
+            href="https://drive.google.com/file/d/1MrKnFrXRFATz_YjCRlCVP-M7XqQk5piD/view?usp=sharing"
+            target="__blank"
+          >
+            Resume
+          </a>
+        </div>
       </div>
-      <div className="navbar-open-btn center">
+
+      <div className="hidden">
         <button onClick={toggle}>
           <i className="fas fa-bars"></i>
         </button>
       </div>
+
       <div
-        className="navbar-container-mobile center"
+        className="hidden"
         style={{
           right: isopen ? "0" : "-100%",
           animation: isopen ? "slideIn 0.3s" : "slideOut 0.5s",

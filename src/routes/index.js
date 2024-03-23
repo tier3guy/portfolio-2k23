@@ -1,4 +1,5 @@
-import { Home, BlogsPage, ErrorPage } from "../pages";
+import Home from "../pages/Home";
+import ErrorPage from "../pages/Error";
 
 const routes = [
   {
@@ -6,13 +7,6 @@ const routes = [
     exact: "true",
     path: "/",
     element: <Home />,
-    errorElement: <ErrorPage />,
-  },
-  {
-    key: "2",
-    exact: "true",
-    path: "/blogs",
-    element: <BlogsPage />,
     errorElement: <ErrorPage />,
   },
   {
