@@ -32,7 +32,10 @@ export const DATA = {
         "Python",
         "Solidity",
         "NestJS",
-        "Data Structures"
+        "Data Structures",
+        "Docker",
+        "Kubernetes",
+        "Kafka",
     ],
     navbar: [
         { href: "/", icon: HomeIcon, label: "Home" },
