@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon, NotebookIcon } from "lucide-react";
+import { FileIcon, HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
     name: "Avinash Gupta",
@@ -39,6 +39,7 @@ export const DATA = {
     ],
     navbar: [
         { href: "/", icon: HomeIcon, label: "Home" },
+        { href: "https://docs.google.com/document/d/1WIhz8mEXifKFx17TtnPQZiF8j4LsWODZyuXDCkO1B54/edit?usp=sharing", icon: FileIcon, label: "Resume"},
         { href: "/blog", icon: NotebookIcon, label: "Blog" },
     ],
     contact: {
@@ -63,12 +64,12 @@ export const DATA = {
                 icon: Icons.x,
                 navbar: true,
             },
-            Youtube: {
-                name: "Youtube",
-                url: "https://www.youtube.com/@avinashgupta2308",
-                icon: Icons.youtube,
-                navbar: true,
-            },
+            // Youtube: {
+            //     name: "Youtube",
+            //     url: "https://www.youtube.com/@avinashgupta2308",
+            //     icon: Icons.youtube,
+            //     navbar: true,
+            // },
             email: {
                 name: "Send Email",
                 url: "#",

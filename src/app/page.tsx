@@ -1,13 +1,12 @@
-import { HackathonCard } from "@/components/hackathon-card";
-import BlurFade from "@/components/magicui/blur-fade";
-import BlurFadeText from "@/components/magicui/blur-fade-text";
-import { ProjectCard } from "@/components/project-card";
-import { ResumeCard } from "@/components/resume-card";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { Badge } from "@/components/ui/badge";
-import { DATA } from "@/data/resume";
 import Link from "next/link";
+import { DATA } from "@/data/resume";
 import Markdown from "react-markdown";
+import { Badge } from "@/components/ui/badge";
+import { ResumeCard } from "@/components/resume-card";
+import BlurFade from "@/components/magicui/blur-fade";
+import { ProjectCard } from "@/components/project-card";
+import BlurFadeText from "@/components/magicui/blur-fade-text";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 const BLUR_FADE_DELAY = 0.04;
 
