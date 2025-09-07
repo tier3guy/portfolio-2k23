@@ -39,7 +39,7 @@ export const DATA = {
     ],
     navbar: [
         { href: "/", icon: HomeIcon, label: "Home" },
-        { href: "https://docs.google.com/document/d/1WIhz8mEXifKFx17TtnPQZiF8j4LsWODZyuXDCkO1B54/edit?usp=sharing", icon: FileIcon, label: "Resume"},
+        // { href: "https://docs.google.com/document/d/1WIhz8mEXifKFx17TtnPQZiF8j4LsWODZyuXDCkO1B54/edit?usp=sharing", icon: FileIcon, label: "Resume"},
         { href: "/blog", icon: NotebookIcon, label: "Blog" },
     ],
     contact: {
@@ -58,12 +58,12 @@ export const DATA = {
                 icon: Icons.linkedin,
                 navbar: true,
             },
-            X: {
-                name: "X",
-                url: "https://x.com/tier3guy/",
-                icon: Icons.x,
-                navbar: true,
-            },
+            // X: {
+            //     name: "X",
+            //     url: "https://x.com/tier3guy/",
+            //     icon: Icons.x,
+            //     navbar: true,
+            // },
             // Youtube: {
             //     name: "Youtube",
             //     url: "https://www.youtube.com/@avinashgupta2308",
